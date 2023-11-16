@@ -1,0 +1,21 @@
+.header{
+    background-image: url('https://templates.iqonic.design/hope-ui/html/dist/assets/images/dashboard/top-header.png');
+    object-fit: cover;
+    height: 908px;
+    background-repeat: no-repeat;
+}
+#announcements{
+    text-decoration: none;
+    background-color:rgba(204,204,204,0.4);
+}
+#announcements:hover{
+    background-color:rgba(204,204,204,0.7)
+}
+.Profile-img{
+    height: 8% ;
+    width: 8% ;
+    border-radius: 50%;
+     margin-top: -5%;
+    margin-left: 5%; 
+}
+
