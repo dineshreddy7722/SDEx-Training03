@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* overflow: hidden; */
+  }  
+  body{
+    overflow-y: scroll;
+  }
+  
+  /* side bar css starts  */
+  .rightarrow{
+    border-radius: 50px !important;
+    position: absolute;
+    left: 65px; 
+  }
+  .leftarrow{
+    border-radius: 50px !important;
+    position: absolute;
+    left: 197px;
+    top:7px
+  } 
+  .list-items{
+      text-decoration: none;
+      color: gray; 
+  }
+  .sub-items{
+      margin-top: 5px;
+  }
+
+   #scroll{
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   }
+   #scroll::-webkit-scrollbar{
+    width: 8px;
+   }
+  #scroll::-webkit-scrollbar-thumb{
+    background-color:gray;
+    border-radius: 10px;  
+  }
+  div{
+    display: block;
+  }
+  #side-bar{
+    position: fixed;
+    background-color: #fff !important;
+  }
+  /* side bar css ends */
+  /* nav css */
+  .header{
+    background-image: url('https://templates.iqonic.design/hope-ui/html/dist/assets/images/dashboard/top-header.png');
+    object-fit: cover;
+    height: 908px;
+    background-repeat: no-repeat;
+  }
+  #announcements{
+    text-decoration: none;
+    background-color:rgba(204,204,204,0.4);
+  }
+  #announcements:hover{
+    background-color:rgba(204,204,204,0.7)
+  }
+  .Profile-img{
+    height: 8% ;
+    width: 8% ;
+    border-radius: 50%;
+     margin-top: -5%;
+    margin-left: 5%; 
+  }
+  /* .main-content {
+    height: 1100px;
+    position: relative; /* or position: absolute; or position: fixed; 
+    z-index: -1;
+    overflow-y: scroll;
+  
+  } */
+  
+  /* .main-content{
+    z-index: -1;
+  } */
+  /* nav css ends */
+  /* main content css starts */
+  .gallery{
+    height: 50px;
+
+  }
+  .img1{
+    background-color: #079aa21a;
+  }
+  
+  .img5{
+    background-color: rgba(241,106,27,.2);
+  }
+  .img7{
+    background-color: rgba(192,50,33,.2);
+  }
+  .img9{
+    background-color:rgba(26,160,83,.2) ;
+  }
+  
+  .twitter{
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(192,50,33,0.2);
+  }
+  .img2{
+    background-color: #3a57e81a;
+  }
+  .wade-warren{
+    background-color: #079AA21A;
+  }
+  .flutter{
+    background-color: rgba(58,87,232,.2) !important;
+  }
+  .web-design{
+    background-color: #DEE2E633;
+  }
+  
+  .comment-attagement{
+    font-size: 1.25rem;
+    position: absolute;
+    right: 1.875rem;
+    bottom: 20px;
+  }
+  .icon{
+    border-radius: 50%;
+  }
+  .icon:hover{
+    background-color: blue;
+    color: azure;
+  }
+  .main-content{
+    height: 800px;
+    overflow-y: scroll;
+   }
+   .main-content::-webkit-scrollbar{
+    width: 8px;
+   }
+  .main-content::-webkit-scrollbar-thumb{
+    background-color:gray;
+    border-radius: 10px;  
+  }
+ /* main content css ends */
+
+  @media only screen and (max-width:767px){
+    .gallery{
+      height: 80px;
+    }
+   
+  }
